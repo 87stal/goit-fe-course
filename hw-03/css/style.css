@@ -1,11 +1,27 @@
 body {
-    font-family:'Playfair Display', serif;
-    color: rgb( 98,98,98 );
-    font-size: 14px;
-    line-height: 24px;
-
+  font-family: "Playfair Display", serif;
+  color: rgb(98, 98, 98);
+  font-size: 14px;
+  line-height: 24px;
 }
-
-
-
-/* <--font-family: 'Ubuntu', sans-serif;--> */
+.menu {
+  list-style: none;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+.menu :hover {
+  color: rgb(3, 169, 244);
+}
+h2 {
+  font-size: 30px;
+  font-weight: normal;
+}
+.name_section {
+  font-family: "Ubuntu", sans-serif;
+  text-transform: uppercase;
+  color: rgb(180, 173, 158);
+  font-weight: lighter;
+}
+button {
+  font-size: 20px;
+}
