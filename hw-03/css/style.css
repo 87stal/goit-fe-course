@@ -1,23 +1,33 @@
 
 body {
-  box-sizing: border-box;
-  height: 2078px;
-  width: 910px ;
+   box-sizing: border-box; 
   font-family: "Playfair Display", serif;
   color: rgb(98, 98, 98);
+  /* height: auto; */
+  width: 100%;
+  height: 100%;
   font-size: 14px;
   line-height: 24px;
   display: inline-block;
+  margin: 0px;
+  padding: 0px;
 }
+  /* .container {
+  width: 910px;
+  box-sizing: border-box;
+  margin: 0 auto;
+  padding-left: 0px auto;
+  padding-right: 0px auto;
+}   */
 
 nav {
   width: 574px;
   margin: 0 auto;
 }
-.Some_article {
-  box-sizing: border-box;
-  margin: auto;
-
+div {
+  width: 910px;
+  margin-left: auto;
+  margin-right: auto;
 }
 .menu {
   box-sizing: border-box;
@@ -41,11 +51,14 @@ nav {
 .menu :hover {
   color: rgb(3, 169, 244);
 }
-h2 {
+.Header {
+  display: inline-block;
   font-size: 30px;
   font-weight: normal;
-  margin-top: 31px;
-  margin-bottom: 39px;
+  line-height: 30px;
+  margin-top: 0px;
+  margin-block-end: 30px;
+  letter-spacing: 1px;
 }
 
 article {
@@ -53,13 +66,13 @@ article {
   width: 421px;
   height: 493px;
   margin-right: 61px;
+  margin-bottom: 133px;
   vertical-align: top;
 }
-div{
-  display: inline-block;
-  margin-left: auto;
-  margin-right: auto;
+img {
+  margin-bottom: 23px;
 }
+
 article:nth-child(2n){
   margin-right: 0;
 }
@@ -69,20 +82,23 @@ article:nth-child(2n){
   text-transform: uppercase;
   color: rgb(180, 173, 158);
   font-weight: lighter;
-  margin-top: 34px;
-  margin-bottom: 0px;
+  margin-top: 0px;
+  margin-bottom: 23px;
 }
 
 .text {
-  margin-bottom: 0;
+  margin-bottom: 0px;
+  margin-block-start: 0px;
+  display: inline-block;
 }
 button {
   display: block;
   margin-left: 358px;
-  margin-top: 57px;
   font-size: 20px;
   width: 165px;
   height: 60px;
   background-color: white;
+  border-color: black;
+  border-width: 1px  ;
 }
 
