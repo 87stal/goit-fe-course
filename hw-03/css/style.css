@@ -1,27 +1,88 @@
+
 body {
+  box-sizing: border-box;
+  height: 2078px;
+  width: 910px ;
   font-family: "Playfair Display", serif;
   color: rgb(98, 98, 98);
   font-size: 14px;
   line-height: 24px;
+  display: inline-block;
+}
+
+nav {
+  width: 574px;
+  margin: 0 auto;
+}
+.Some_article {
+  box-sizing: border-box;
+  margin: auto;
+
 }
 .menu {
+  box-sizing: border-box;
   list-style: none;
   text-transform: uppercase;
-  text-decoration: none;
+  display: inline-block;
+  padding: 0;
 }
+ ul {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 77px;
+  margin-bottom: 105px;
+  } 
+.menu a{
+  padding-right: 50px;
+  text-decoration: none;
+  color: rgb(98, 98, 98);
+}
+
 .menu :hover {
   color: rgb(3, 169, 244);
 }
 h2 {
   font-size: 30px;
   font-weight: normal;
+  margin-top: 31px;
+  margin-bottom: 39px;
 }
+
+article {
+  display: inline-block;
+  width: 421px;
+  height: 493px;
+  margin-right: 61px;
+  vertical-align: top;
+}
+div{
+  display: inline-block;
+  margin-left: auto;
+  margin-right: auto;
+}
+article:nth-child(2n){
+  margin-right: 0;
+}
+
 .name_section {
   font-family: "Ubuntu", sans-serif;
   text-transform: uppercase;
   color: rgb(180, 173, 158);
   font-weight: lighter;
+  margin-top: 34px;
+  margin-bottom: 0px;
+}
+
+.text {
+  margin-bottom: 0;
 }
 button {
+  display: block;
+  margin-left: 358px;
+  margin-top: 57px;
   font-size: 20px;
+  width: 165px;
+  height: 60px;
+  background-color: white;
 }
+
