@@ -12,6 +12,7 @@ body {
 }
 /* Navigation */
 nav {
+  width: 910px;
   text-align: center;
   margin-left: auto;
   margin-right: auto;
@@ -45,10 +46,11 @@ ul {
   color: rgb(3, 169, 244);
 }
 /* Article position */
-.some_article {
+.container {
   width: 910px;
   margin-left: auto;
   margin-right: auto;
+  font-size: 0px;
 }
 
 article {
@@ -56,6 +58,7 @@ article {
   width: 420px;
   margin-right: 68px;
   margin-bottom: 134px;
+  box-sizing: border-box;
   vertical-align: top;
 }
 img {
@@ -67,7 +70,6 @@ img {
 
 article:nth-child(2n) {
   margin-right: 0px;
-  margin-left: -3px;
 }
 .last_post {
   margin-bottom: 59px;
@@ -77,6 +79,7 @@ article:nth-child(2n) {
   font-family: "Ubuntu", sans-serif;
   text-transform: uppercase;
   color: rgb(180, 173, 158);
+  font-size: 14px;
   font-weight: lighter;
   margin-top: 0px;
   margin-bottom: 23px;
@@ -94,11 +97,13 @@ article:nth-child(2n) {
   margin-bottom: 0px;
   margin-right: 0px;
   display: inline-block;
+  font-size: 14px;
 }
 
 button {
   display: block;
-  margin-left: 358px;
+  margin-left: auto;
+  margin-right: auto;
   font-size: 20px;
   width: 165px;
   height: 60px;
@@ -106,4 +111,5 @@ button {
   border-color: black;
   border-width: 1px;
   margin-bottom: 70px;
+  cursor: pointer;
 }
