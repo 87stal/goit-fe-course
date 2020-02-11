@@ -58,7 +58,7 @@ img {
   margin: 0px;
   padding: 10px;
   font-size: 14px;
-  line-height: 11px;
+  line-height: 18px;
   text-decoration: none;
   text-transform: uppercase;
   float: right;
@@ -85,7 +85,7 @@ a {
 
 h2 {
   font-size: 48px;
-  line-height: 32px;
+  line-height: 52px;
   color: #555252;
   text-align: center;
   text-transform: uppercase;
