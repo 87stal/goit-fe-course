@@ -28,11 +28,10 @@ img {
   margin: 0 auto;
 }
 .page_header {
-  margin-bottom: 105px;
+  padding-top: 105px;
 }
 .site-navigation {
-  width: 1110px;
-  height: 30px;
+
   padding-top: 40px;
   padding-left: 30px;
   padding-right: 30px;
@@ -117,13 +116,16 @@ h2::after {
 .produkt_list_item:nth-child(4n) {
   margin-right: 0px;
 }
+.produkt_title_cost {
+width: 255px;
+background-color: #000000;
+}
 
 .produkt_list_name a {
   box-sizing: border-box;
   float: left;
   width: 200px;
-  height: 40px;
-  background-color: #000000;
+  height: 40px; 
   text-transform: uppercase;
   margin-top: 0px;
   padding-top: 10px;
@@ -135,30 +137,21 @@ h2::after {
   margin-top: 0px;
   margin-bottom: 0px;
 }
-.product_list_price {
+.product_list_price a{
   float: right;
   box-sizing: border-box;
-  width: 56px;
-  height: 40px;
-  background-color: #000000;
-  filter: opacity(0.44);
+  width: 55px;
+  background-color: rgba(255, 255, 255, 0.44);
   color: #ffffff;
-  padding: 10px;
+  text-align: center;
+  padding-top:8px; 
+  padding-bottom: 8px;
   font-weight: 700;
 }
-.product_list_name a:hover {
-  background-color: #1abc9c;
-  color: #ffffff;
-}
 
-.produkt_list_item:hover .produkt_list_name a {
+.produkt_list_item:hover .produkt_title_cost {
   background-color: #1abc9c;
-  color: #ffffff;
-}
-.produkt_list_item:hover .product_list_price {
-  background-color: #1abc9c;
-  color: #ffffff;
-}
+} 
 
 .blog-article {
   list-style: none;
