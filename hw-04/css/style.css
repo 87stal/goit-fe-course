@@ -13,8 +13,6 @@ body {
 img {
   display: block;
   max-width: 100%;
-  width: 256px;
-  height: 284px;
   background-color: #e9f0fd;
 }
 .clearfix::after {
@@ -120,8 +118,8 @@ h2::after {
 }
 
 .produkt_title_cost {
-  width: 255px;
   background-color: #000000;
+  float: left;
 }
 
 .produkt_list_name a {
@@ -136,10 +134,11 @@ h2::after {
   color: #ffffff;
 }
 .produkt_list_name {
+  float: left;
   margin-top: 0px;
   margin-bottom: 0px;
 }
-.product_list_price a {
+.product_list_price {
   float: right;
   box-sizing: border-box;
   width: 55px;
@@ -173,10 +172,6 @@ h2::after {
   margin-right: 0px;
 }
 
-.blog-article-item img {
-  width: 350px;
-  height: 262px;
-}
 .blog-article_header {
   font-weight: 700;
   font-size: 18px;
@@ -201,20 +196,19 @@ h2::after {
   margin: 0px;
   padding-bottom: 18px;
 }
-.blog button {
+.blog-button {
   float: left;
-  border: none;
+  border: 1px solid #1abc9c;
   box-sizing: border-box;
+  display: block;
   background-color: #1abc9c;
+  text-align: center;
   font-weight: 300;
   width: 160px;
   height: 52px;
   border-radius: 5px;
-  padding: 0px;
+  padding: 10px;
   cursor: pointer;
-}
-
-.button {
   font-family: "Open Sans", sans-serif;
   color: #ffffff;
 }
