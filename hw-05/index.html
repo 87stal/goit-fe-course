@@ -11,8 +11,9 @@
     />
     <link
       href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700&display=swap"
-      rel="stylesheet" />
-      
+      rel="stylesheet"
+    />
+
     <title>Modul-5</title>
   </head>
   <body>
@@ -32,13 +33,104 @@
       </nav>
     </header>
     <main class="container">
-        <ul class="slider">
-           <li class="slider-item"> <img src="./image/slider-image.png" alt="women walk" width="1717" height="600" class="slider-img"></li>
+      <div class="slider">
+        <div class="overlay-slider"></div>
+        <ul class="slides">
+          <li class="slider-item">
+            <img
+              src="./image/slider-image.png"
+              alt="women walk"
+              width="1717"
+              height="600"
+              class="slider-img"
+            />
+          </li>
+        </ul>
+        <div class="slider-ctrl">
+          <button class="slider-ctrl-prev"></button>
+          <button class="slider-ctrl-next"></button>
         </div>
-        <section class="slider-text">
-            <p>affortable paris tours</p>
-            <p>city tours/tour tickets/tour guides</p>
-        </section>
+        <!-- slider-ctrl -->
+        <div class="text">
+          <h3 class="header-slider">affortable paris tours</h3>
+          <p class="slider-text">city tours/tour tickets/tour guides</p>
+        </div>
+      </div>
+      <section class="produkt clearfix">
+        <h2 class="products_title">new collection</h2>
+        <ul class="produkt-list clearfix">
+          <li class="produkt-list-item clearfix">
+            <a href="#" class="product_list_img"
+              ><img
+                src="./image/card-1.png"
+                width="256"
+                height="326"
+                alt="blue tshirt"
+            /></a>
+            <div class="produkt_title_cost clearfix">
+              <h3 class="produkt_list_name clearfix">
+                <a href="#">blue tshirt</a>
+              </h3>
+              <div class="product_list_price">$26</div>
+            </div>
+          </li>
+          <li class="produkt-list-item clearfix">
+            <a href="#" class="product_list_img"
+              ><img
+                src="./image/card-2.png"
+                width="256"
+                height="326"
+                alt="women shirt"
+            /></a>
+            <div class="produkt_title_cost clearfix">
+              <h3 class="produkt_list_name"><a href="#">women shirt</a></h3>
+              <div class="product_list_price">$31</div>
+            </div>
+          </li>
+          <li class="produkt-list-item clearfix">
+            <a href="#" class="product_list_img"
+              ><img
+                src="./image/card-3.png"
+                width="256"
+                height="326"
+                alt="yellow tshirt"
+            /></a>
+            <div class="produkt_title_cost clearfix">
+              <h3 class="produkt_list_name"><a href="#">yellow tshirt</a></h3>
+              <div class="product_list_price">$21</div>
+            </div>
+          </li>
+          <li class="produkt-list-item clearfix">
+            <a href="#" class="product_list_img"
+              ><img
+                src="./image/card-4.png"
+                width="256"
+                height="326"
+                alt="cool lingerie"
+            /></a>
+            <div class="produkt_title_cost clearfix">
+              <h3 class="produkt_list_name"><a href="#">cool lingerie</a></h3>
+              <div class="product_list_price">$56</div>
+            </div>
+            <div class="overlay">
+              <ul class="icon-list">
+                <li class="overlay-icon heart"></li>
+                <li class="overlay-icon arrow"></li>
+                <li class="overlay-icon clock"></li>
+                <li class="overlay-icon card">add to card</li>
+              </ul>
+            </div>
+          </li>
+        </ul>
+      </section>
+      <footer>
+        <div class="copyright">
+          <p>
+            All right reserved © Dokan| Designed by
+            <span class="colortext">ThemenGraph</span>
+          </p>
+        </div>
+      </footer>
     </main>
   </body>
 </html>
