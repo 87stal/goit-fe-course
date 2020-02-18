@@ -1,11 +1,7 @@
 body {
   font-family: "Roboto", "Open Sans", sans-serif;
   box-sizing: border-box;
-  /* width: 1170px; */
-  /* width: 100%;
-    height: 100%; */
   line-height: 24px;
-  /* display: inline-block; */
   margin: 0px;
   padding: 0px;
 }
@@ -24,13 +20,12 @@ img {
   margin: 0 auto;
   display: block;
   background-color: #e9f0fd;
-
 }
 .site-navigation {
   margin: 0 auto;
   display: block;
   padding-top: 40px;
-  padding-bottom: 106px;
+  padding-bottom: 40px;
   width: 1110px;
 }
 
@@ -127,7 +122,7 @@ a {
   background-image: url(../image/slider-arrow-left.png);
 }
 .slider-ctrl-next {
- float: right;
+  float: right;
   background-image: url(../image/slider-arrow-right.png);
 }
 .slider-ctrl-next:hover,
@@ -185,9 +180,8 @@ h2::after {
   margin-top: 30px;
 }
 .produkt {
-position: relative;
+  position: relative;
   display: block;
-  /* background-color: #e9f0fd; */
   padding-top: 100px;
 }
 .produkt-list {
@@ -196,10 +190,9 @@ position: relative;
   width: 1110px;
   list-style: none;
   padding: 0;
-  margin: 0 auto; 
+  margin: 0 auto;
   padding-bottom: 106px;
   display: block;
-  
 }
 
 .produkt-list-item {
@@ -208,17 +201,16 @@ position: relative;
   width: 256px;
   height: 326px;
   margin-right: 28px;
-  
 }
 .produkt-list-item:nth-child(4) {
   margin-right: 0px;
 }
 .produkt-list-item:nth-child(-n + 4) {
-  padding-bottom: 0px; 
+  padding-bottom: 0px;
 }
 
 .produkt_title_cost {
-  font-family: 'Roboto';
+  font-family: "Roboto";
   font-size: 18px;
   line-height: 38px;
   font-weight: 900;
@@ -241,7 +233,7 @@ position: relative;
   transform: translateY(50%);
   text-transform: uppercase;
   margin-top: 0px;
-  padding-left: 14px; 
+  padding-left: 14px;
   list-style: none;
   color: #ffffff;
   z-index: 4;
@@ -272,6 +264,7 @@ position: relative;
 .produkt-list-item:hover .produkt_title_cost {
   background-color: #1abc9c;
 }
+/* Icon/overlay */
 .overlay {
   position: absolute;
   top: 15px;
@@ -283,9 +276,8 @@ position: relative;
   width: 234px;
   background-color: rgba(0, 0, 0);
   opacity: 0;
-
 }
-.icon{
+.icon {
   position: absolute;
   top: 15px;
   left: 10px;
@@ -297,10 +289,9 @@ position: relative;
 }
 
 .produkt-list-item:hover .overlay {
- opacity: 0.55;
-
+  opacity: 0.55;
 }
-.icon-list{
+.icon-list {
   box-sizing: border-box;
   position: absolute;
   top: 50%;
@@ -310,7 +301,7 @@ position: relative;
   height: 112px;
   font-size: 14px;
   line-height: 32px;
-  font-family: 'OpenSans';
+  font-family: "OpenSans";
   font-weight: 400;
   font-family: "Roboto";
   color: rgb(255, 255, 255);
@@ -320,33 +311,29 @@ position: relative;
   padding-left: 0px;
   margin-left: auto;
   vertical-align: middle;
-  z-index: 1; 
+  z-index: 1;
   opacity: 0;
 }
-.produkt-list-item:hover .icon-list{
+.produkt-list-item:hover .icon-list {
   opacity: 1;
 }
 
-.card {
-background-color: rgb(50, 50, 50);
-}
 .overlay-icon {
   float: left;
   width: 48px;
   height: 48px;
-  border: 1px solid rgba(255, 255, 255);
   margin-right: 8px;
   margin-bottom: 8px;
-
 }
-.overlay-icon:nth-child(3){
-margin-right: 0px;
+.overlay-icon:nth-child(3) {
+  margin-right: 0px;
 }
-.overlay-icon:nth-child(4){
-width: 166px;
-margin-right: 0px;
+.overlay-icon:nth-child(4) {
+  width: 166px;
+  margin-right: 0px;
+  border: 1px solid rgb(255, 255, 255);
 }
-.overlay-icon a{
+.overlay-icon:not(:last-child) a {
   float: left;
   width: 48px;
   height: 48px;
@@ -354,57 +341,66 @@ margin-right: 0px;
   margin-bottom: 8px;
   background-repeat: no-repeat;
   background-position: center;
+  border: 1px solid rgb(255, 255, 255);
 }
-.heart a{
+.heart a {
   background-image: url(../image/icon-1.png);
 }
-.arrow a{
+.arrow a {
   background-image: url(../image/icon-2.png);
 }
-.clock a{
+.clock a {
   background-image: url(../image/icon-3.png);
   margin-right: 0px;
 }
-.card a{
-  float: left;
-  background-image: url(../image/icon-4.png) ;
-  margin-right: 0px;
+.card {
+  position: relative;
+  background-color: rgb(50, 50, 50);
 }
-.card-text{
-float: right;
-width: 117px;
-height: 100%;
+.icon-card {
+  float: left;
+  width: 48px;
+  height: 48px;
+  background-image: url(../image/icon-4.png);
+  margin-right: 0px;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.card-text {
+  float: right;
+  width: 117px;
+  height: 100%;
   box-sizing: border-box;
   margin: 0 auto;
-  text-align: center; 
+  text-align: center;
   font-size: 14px;
   font-family: "OpenSans";
   color: rgb(255, 255, 255);
   text-transform: uppercase;
-  line-height: 32px;
-padding-top: 10px;
+  line-height: 48px;
 }
-.overlay-icon:not(:last-child) a:hover{
-  background-color:rgb(26, 188, 156);
+.overlay-icon:not(:last-child) a:hover {
+  background-color: rgb(26, 188, 156);
   opacity: 1;
+  border: rgb(26, 188, 156);
 }
+
+/* Footer */
+
 .copyright {
   background-color: #323232;
   width: 100%;
   height: 90px;
   color: #ffffff;
-font-family: "Open Sans";
-font-size: 14px;
-line-height: 28px;
-text-align: center;
+  font-family: "Open Sans";
+  font-size: 14px;
+  line-height: 90px;
+  text-align: center;
 }
 .footer-text {
-box-sizing: border-box;
-display: inline-block;
-margin: 0;
-padding-top: 32px;
-padding-bottom: 32px;
+  margin: 0;
 }
-.colortext{
+
+.colortext {
   color: #1abc9c;
 }
