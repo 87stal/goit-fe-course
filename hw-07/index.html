@@ -30,9 +30,9 @@
         </ul>
       </nav>
     </header>
-    <main class="container">
+    <main>
       <!-- SERVIS SECTION -->
-      <section class="service">
+      <section class="service container">
         <h2 class="service-title">
           Services
           <span class="header-italic"
@@ -67,9 +67,30 @@
         </ul>
       </section>
       <section class="contact">
-        <h2 class="header-contact">contact us <span class="header-italic"
-          >Proin iaculis purus consequat sem cure.
-        </span></h2>
+        <h2 class="header-contact">
+          contact us
+          <span class="header-italic"
+            >Proin iaculis purus consequat sem cure.
+          </span>
+        </h2>
+        <form class="contact-form container" action="#" method="GET">
+          <fieldset class="input-field">
+            <input type="text" name="name" placeholder="your name *" required />
+            <input
+              type="email"
+              name="email"
+              placeholder="your e-mail *"
+              required
+            />
+            <input type="text" name="subject" placeholder="subject" />
+          </fieldset>
+          <textarea
+            name="message_contact"
+            placeholder="your message *"
+            required=""
+          ></textarea>
+          <input type="submit" value="send message" />
+        </form>
       </section>
     </main>
   </body>
