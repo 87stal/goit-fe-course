@@ -236,6 +236,7 @@ h2 {
 ::placeholder {
   text-transform: uppercase;
   color: #bbbbbb;
+  padding-left: 20px;
 }
 
 input {
@@ -255,11 +256,14 @@ input:required:valid:not(:placeholder-shown) {
 }
 
 textarea {
-  width: 455px;
+  flex-basis: 455px;
   height: 212px;
   resize: none;
   border: 1px solid #ffffff;
   border-radius: 3px;
+}
+textarea::placeholder{
+  padding-top: 16px;
 }
 
 textarea:required:invalid:not(:placeholder-shown) {
