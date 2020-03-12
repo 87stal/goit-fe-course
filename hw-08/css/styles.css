@@ -1,0 +1,104 @@
+html {
+    box-sizing: border-box;
+  }
+  
+  *,
+  *::before,
+  *::after {
+    box-sizing: inherit;
+  }
+  /* montserrat-regular - latin */
+@font-face {
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 400;
+    src: local("Montserrat Regular"), local("Montserrat-Regular"),
+      url("../fonts/montserrat-v14-latin-regular.woff2") format("woff2"),
+      /* Chrome 26+, Opera 23+, Firefox 39+ */
+        url("../fonts/montserrat-v14-latin-regular.woff") format("woff"); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+  }
+  /* montserrat-700 - latin */
+  @font-face {
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 700;
+    src: local("Montserrat Bold"), local("Montserrat-Bold"),
+      url("../fonts/montserrat-v14-latin-700.woff2") format("woff2"),
+      /* Chrome 26+, Opera 23+, Firefox 39+ */
+        url("../fonts/montserrat-v14-latin-700.woff") format("woff"); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+  }
+ /* roboto-300 - latin */
+@font-face {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 300;
+    src: local('Roboto Light'), local('Roboto-Light'),
+         url('../fonts/roboto-v20-latin-300.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+         url('../fonts/roboto-v20-latin-300.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+  }
+  /* roboto-regular - latin */
+  @font-face {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Roboto'), local('Roboto-Regular'),
+         url('../fonts/roboto-v20-latin-regular.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+         url('../fonts/roboto-v20-latin-regular.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+  }
+  body {
+    font-family: 'Monsterrat', 'Roboto', sans-serif;
+    color: #6c7279;
+    font-size: 14px;
+    line-height: 21px;
+  }
+
+  img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+  }
+  .container {
+    width: 320px;
+    padding: 0 15px;
+    margin: 0 auto;
+  }
+  .page-header{
+      background-image: url("../image/banner-mobile.png");
+      min-height: 540px;
+  }
+  .autorization {
+      display: flex;
+      margin: 0 auto;
+      width: 170px;
+      justify-content: space-between;
+      padding-top: 20px;
+      padding-bottom: 116px;
+  }
+  .button_login{
+      border: none;
+      background: none;
+      color: white;
+      font-family: 'Montserrat';
+      font-weight: 700;
+      font-size: 14px;
+      line-height: 32px;
+      padding-left: 15px;
+      padding-right: 15px;
+      
+  }
+  .button_login:focus {
+      border: 2px solid white;
+border-radius: 20px;
+outline:none;
+  }
+.site-logo{
+    display: block;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: 'Montserrat';
+    font-weight: 700;
+    font-size: 20px;
+    color: white;
+text-align: center;
+}
+
