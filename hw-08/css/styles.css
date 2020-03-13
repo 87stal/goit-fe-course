@@ -66,8 +66,12 @@ img {
 }
 .page-header {
   background-image: url("../image/banner-mobile.png");
-  min-height: 540px;
+  background-position: center; 
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 0 auto;
   margin-bottom: 70px;
+  text-align: center;
 }
 .autorization {
   display: flex;
@@ -100,10 +104,11 @@ img {
   font-family: "Montserrat";
   font-weight: 700;
   font-size: 20px;
-  text-align: center;
   color: white;
 }
-
+.description_service{
+  padding-bottom: 140px;
+}
 .header_description {
   font-family: "Montserrat";
   font-size: 30px;
@@ -115,25 +120,31 @@ img {
   font-family: Roboto;
   font-weight: 300;
   font-size: 18px;
-  margin-top: 0;
+  margin: 0 auto;
+  width: 220px; 
+  padding-bottom: 20px;
 }
 
+  
 .link {
+  display: block;
+  position: relative;
+  padding: 0;
+  width: 280px;
+  min-height: 40px;
+  margin: 0 auto;
   text-decoration: none;
   color: #ff4e50;
   line-height: 40px;
   border-radius: 20px;
   font-family: "Montserrat";
   font-weight: 700;
-  width: 172px;
+  font-size: 14px;
+ 
+
+
 }
-.wrapper_link {
-  position: relative;
-  width: 280px;
-  height: auto;
-  margin: 0 auto;
-}
-.wrapper_link:after {
+.link:after {
   content: "";
   display: block;
   border: 2px solid #ff4e50;
@@ -146,16 +157,19 @@ img {
   transform: translate(-50%, -50%);
 }
 
-.wrapper_link:active,
-.wrapper_link:hover {
+.link:active,
+.link:hover {
   background-color: #ff4e50;
   border-radius: 20px;
 }
-.wrapper_link:active,
-.wrapper_link:hover .link {
+.link:active,
+.link:hover {
   color: white;
 }
-.patners_header {
+.partners{
+  margin-bottom: 50px;
+}
+.partners_header {
   font-family: Montserrat;
   font-size: 22px;
   font-weight: 700;
@@ -174,9 +188,12 @@ img {
   margin-bottom: 30px;
   position: relative;
 }
+
+
 .foto-partners {
   margin: 0 auto;
   position: relative;
+  border-radius: 50%;
 }
 .partner_list_item::after {
   content: "";
