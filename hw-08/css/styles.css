@@ -80,6 +80,7 @@ img {
   justify-content: space-between;
   padding-top: 20px;
   padding-bottom: 116px;
+  
 }
 .button_login {
   border: none;
@@ -91,8 +92,9 @@ img {
   line-height: 32px;
   padding-left: 15px;
   padding-right: 15px;
+  cursor: pointer;
 }
-.button_login:focus {
+.button_login:focus, .button_login:hover {
   border: 2px solid white;
   border-radius: 20px;
   outline: none;
