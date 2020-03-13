@@ -83,7 +83,7 @@ img {
   
 }
 .button_login {
-  border: none;
+  border: 2px solid rgba(255, 255, 255, 0);
   background: none;
   color: white;
   font-family: "Montserrat";
@@ -95,7 +95,7 @@ img {
   cursor: pointer;
 }
 .button_login:focus, .button_login:hover {
-  border: 2px solid white;
+  border: 2px solid rgba(255, 255, 255, 1);
   border-radius: 20px;
   outline: none;
 }
