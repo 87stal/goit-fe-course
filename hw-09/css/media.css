@@ -1,0 +1,84 @@
+@media(min-width: 768px){
+    
+ .autorization{
+        display: flex;
+    }
+    .site-logo {
+        padding-top: 46px;
+      }
+      .autorization {
+        padding-top: 37px;
+        padding-bottom: 143px;
+      }
+}
+
+@media (min-width: 768px) {
+   
+    .page-header {
+      background-image: url("../image/banner-table.png");
+      width: 100%;
+      margin-bottom: 70px;
+      background-repeat: no-repeat;
+    }
+    .autorization {
+      padding-top: 37px;
+      padding-bottom: 143px;
+    }
+    .site-logo {
+      padding-top: 46px;
+    }
+    .header_description {
+      font-size: 52px;
+      padding-bottom: 35px;
+    }
+    section {
+      width: 512px;
+      margin: 0 auto;
+    }
+    .text_description {
+      font-size: 24px;
+   
+      width: 492px;
+      line-height: 1.2;
+      padding-bottom: 36px;
+    }
+    .description_service {
+      padding-bottom: 234px;
+    }
+    .link {
+      width: 220px;
+    }
+    .link:after {
+      width: 220px;
+    }
+    .partners {
+      margin-bottom: 40px;
+    }
+    .partner_list {
+      display: flex;
+      justify-content: space-between;
+      flex-wrap: wrap;
+    }
+    .partner_list_item {
+      flex-basis: 236px;
+      text-align: center;
+      height: 100%;
+      margin-bottom: 60px;
+      position: relative;
+    }
+    
+    .tv {
+      order: 1;
+    }
+  
+    .coffee {
+      order: 2;
+    }
+    .flask {
+      order: 3;
+    }
+    .telegram {
+      order: 4;
+    }
+   
+  }
