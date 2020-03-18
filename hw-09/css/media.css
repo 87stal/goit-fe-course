@@ -1,6 +1,5 @@
-@media (max-width: 767px){
-   
-  .site-logo{
+@media (max-width: 767px) {
+  .site-logo {
     margin-bottom: 35px;
   }
   .header_description {
@@ -10,60 +9,57 @@
   .partner_list_item {
     margin-bottom: 30px;
   }
+}
+
+@media (min-width: 768px) {
+  .top_menu {
+    padding-left: 54px;
+    padding-right: 54px;
+  }
+  .page-header {
+    background-image: url("../image/banner-table.png");
+    margin-bottom: 70px;
+    background-repeat: no-repeat;
   }
 
+  .autorization {
+    padding-top: 37px;
+    padding-bottom: 143px;
+  }
+  .site-logo {
+    padding-top: 46px;
+  }
+  .header_description {
+    font-size: 52px;
+    padding-bottom: 35px;
+  }
 
+  .text_description {
+    font-size: 24px;
+    line-height: 1.2;
+    padding-bottom: 36px;
+  }
+  .description_service {
+    padding-bottom: 234px;
+  }
+  .link {
+    width: 220px;
+  }
 
-  @media (min-width: 768px) {
-    .top_menu {
-      padding-left: 54px;
-      padding-right: 54px;
-    }
-    .page-header {
-      background-image: url("../image/banner-table.png");
-      margin-bottom: 70px;
-      background-repeat: no-repeat;
-    }
-   
-    .autorization {
-      padding-top: 37px;
-      padding-bottom: 143px;
-    }
-    .site-logo {
-      padding-top: 46px;
-    }
-    .header_description {
-      font-size: 52px;
-      padding-bottom: 35px;
-    }
-  
-    .text_description {
-      font-size: 24px;
-      line-height: 1.2;
-      padding-bottom: 36px;
-    }
-    .description_service {
-      padding-bottom: 234px;
-    }
-    .link {
-      width: 220px;
-    }
-    
-    .partners_header{
-        margin-bottom: 38px;
-    }
-    .partners {
-      margin-bottom: 40px;
-    }
+  .partners_header {
+    margin-bottom: 38px;
+  }
+  .partners {
+    margin-bottom: 40px;
+  }
 }
-@media (min-width: 768px) and (max-width:991px){
+@media (min-width: 768px) and (max-width: 991px) {
   .partner_list_item:nth-child(even) {
     margin-bottom: 0px;
     padding-bottom: 40px;
-  } 
+  }
 }
 @media (min-width: 992px) {
-  
   .page-header {
     background-image: url("../image/banner-desctop.png");
   }
