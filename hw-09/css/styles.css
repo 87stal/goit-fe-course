@@ -124,7 +124,7 @@ html {
     position: relative;
     padding: 0;
     margin: 0 auto; 
-    width: 280px;
+    max-width: 280px; 
     min-height: 40px;
     text-decoration: none;
     background-color:rgba(255, 78, 80, 1);
@@ -136,22 +136,11 @@ html {
     font-size: 14px;
     text-align: center;
   }
-  .link:after {
-    content: "";
-    display: block;
-    border: 2px solid #ff4e50;
-    border-radius: 20px;
-    width: 280px;
-    height: 100%;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-  }
-  
+ 
   .link:active,
   .link:hover {
-    background-color: rgba(255, 78, 80, 0);;
+    background-color: rgba(255, 78, 80, 0);
+    border: 2px solid #ff4e50;
     border-radius: 20px; 
     color: #ff4e50;
   }
