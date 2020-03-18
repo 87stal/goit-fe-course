@@ -68,6 +68,7 @@ html {
     text-align: center;
   }
   .autorization {
+    width: 170px;
     padding-top: 20px;
     padding-bottom: 116px;
     
@@ -92,7 +93,6 @@ html {
   }
   .site-logo {
     display: block;
-    text-align: center;
     text-decoration: none;
     text-transform: uppercase;
     font-family: "Montserrat";
@@ -109,19 +109,21 @@ html {
     text-transform: uppercase;
     line-height: 1.2;
     margin-bottom: 14px;
-    padding: 0;
   }
   .text_description {
     font-family: Roboto;
     font-weight: 300;
     font-size: 18px;
+    margin: 0 auto;
     padding-bottom: 20px;
+    
   }
   
   .link {
     display: block;
     position: relative;
     padding: 0;
+    margin: 0 auto; 
     width: 280px;
     min-height: 40px;
     text-decoration: none;
@@ -132,7 +134,7 @@ html {
     font-family: "Montserrat";
     font-weight: 700;
     font-size: 14px;
-    margin: 0 auto;
+    text-align: center;
   }
   .link:after {
     content: "";
@@ -161,15 +163,18 @@ html {
     font-size: 22px;
     font-weight: 700;
     color: #333333;
+    text-align: center;
   }
   
   .partner_list {
     list-style: none;
     position: relative;
+    margin-bottom: 40px;
   }
   .partner_list_item {
     width: 220px;
     position: relative;
+    text-align: center;
   }
   
   .foto-partners {
