@@ -95,7 +95,7 @@
   }
  
 }
-@media (min-width: 767px) and (max-width:1439px){
+@media (min-width: 768px) and (max-width:1439px){
   .partner_list_item:nth-child(even) {
     margin-bottom: 0px;
     padding-bottom: 40px;

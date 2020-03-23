@@ -66,7 +66,7 @@ img {
 }
 .page-header {
   background-image: url("../image/banner-mobile.png");
-  background-position: center; 
+  background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   height: auto;
@@ -80,8 +80,7 @@ img {
   justify-content: space-between;
   padding-top: 20px;
   padding-bottom: 116px;
-  
-}
+} 
 .button_login {
   border: 2px solid rgba(255, 255, 255, 0);
   background: none;
@@ -94,7 +93,8 @@ img {
   padding-right: 15px;
   cursor: pointer;
 }
-.button_login:focus, .button_login:hover {
+.button_login:focus,
+.button_login:hover {
   border: 2px solid rgba(255, 255, 255, 1);
   border-radius: 20px;
   outline: none;
@@ -108,7 +108,7 @@ img {
   font-size: 20px;
   color: white;
 }
-.description_service{
+.description_service {
   padding-bottom: 140px;
 }
 .header_description {
@@ -123,11 +123,10 @@ img {
   font-weight: 300;
   font-size: 18px;
   margin: 0 auto;
-  width: 220px; 
+  width: 220px;
   padding-bottom: 20px;
 }
 
-  
 .link {
   display: block;
   position: relative;
@@ -142,9 +141,6 @@ img {
   font-family: "Montserrat";
   font-weight: 700;
   font-size: 14px;
- 
-
-
 }
 .link:after {
   content: "";
@@ -162,13 +158,13 @@ img {
 .link:active,
 .link:hover {
   background-color: #ff4e50;
-  border-radius: 20px;
+  border-radius: 20px;  
 }
 .link:active,
 .link:hover {
-  color: white;
+color: white;
 }
-.partners{
+.partners {
   margin-bottom: 50px;
 }
 .partners_header {
@@ -190,7 +186,6 @@ img {
   position: relative;
 }
 
-
 .foto-partners {
   margin: 0 auto;
   position: relative;
@@ -209,23 +204,23 @@ img {
   top: 84px;
   right: 46px;
 }
-.tv::after{
-     background-image: url("../image/icon-tv.png");
-     background-color: #ff4e50;
-} 
-.flask::after{
-    background-image: url("../image/icon-flask.png");
-    background-color: rgb(255, 165, 7);
+.tv::after {
+  background-image: url("../image/icon-tv.png");
+  background-color: #ff4e50;
 }
-.coffee::after{
-    background-image: url("../image/icon-coffee.png");
-    background-color: rgb(28, 215, 173);
+.flask::after {
+  background-image: url("../image/icon-flask.png");
+  background-color: rgb(255, 165, 7);
 }
-.telegram::after{
-    background-image: url("../image/icon-telegram.png");
-    background-color: rgb(78, 115, 219);
+.coffee::after {
+  background-image: url("../image/icon-coffee.png");
+  background-color: rgb(28, 215, 173);
 }
-    .name_partner {
+.telegram::after {
+  background-image: url("../image/icon-telegram.png");
+  background-color: rgb(78, 115, 219);
+}
+.name_partner {
   font-family: Montserrat;
   font-size: 14px;
   font-weight: 700;
@@ -238,7 +233,3 @@ img {
   font-weight: 300;
   color: #666666;
 }
-
-
-
-  
