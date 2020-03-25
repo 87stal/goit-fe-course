@@ -1,0 +1,6 @@
+@media (min-resolution: 192dpi), (min-resolution: 2dppx) {
+    .page-header{
+        background-image: url('../image/banner@2x.png');
+    }
+
+}
