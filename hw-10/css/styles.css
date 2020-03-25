@@ -10,11 +10,7 @@ html {
 body {
   font-family: "Kaushan+Script", "Montserrat", "Roboto", sans-serif;
 }
-img {
-  display: block;
-  max-width: 100%;
-  height: auto;
-}
+
 .link {
   text-decoration: none;
 }
@@ -36,7 +32,8 @@ img {
   font-family: "Kaushan Script";
   font-weight: normal;
   text-transform: none;
-  line-height: 1.2;
+  line-height: 1;
+  margin: 0;
 }
 .title__monsterrat {
   display: block;
@@ -46,35 +43,38 @@ img {
   font-weight: bold;
   font-style: normal;
 }
-.title--large {
+.header-title {
   font-size: 72px;
   color: #fff;
 }
-.title__monsterrat--large {
+.header-title__monsterrat {
   font-size: 150px;
   padding-top: 35px;
+  padding-bottom: 120px;
 }
-.title--small {
+.section-title {
   font-size: 24px;
   color: #333333;
 }
-.title__monsterrat--small {
+.section-title__monsterrat {
   font-size: 30px;
   padding-top: 21px;
 }
 
-.title--small ::after {
+.section-title ::after {
   display: block;
   width: 66px;
   height: 3px;
   background-color: rgb(243, 129, 129);
   content: "";
-  margin: 40px auto;
+  margin: auto;
+  margin-top: 40px;
 }
-
+/* PAGE-HEADER */
 .page-header {
   min-height: 1000px;
   background: linear-gradient(
+      to top,
       rgba(252, 227, 138, 0.9) 0%,
       rgba(243, 129, 129, 0.9) 100%
     ),
@@ -89,16 +89,18 @@ img {
   font-size: 30px;
   color: #95e1d3;
   font-weight: 700;
-  line-height: 1;
+  line-height: 1.2;
   text-decoration: none;
   color: #fff;
 }
 
-.page-header__nav {
+.page-nav {
   display: flex;
   justify-content: space-between;
   align-items: flex-end;
   min-height: 65px;
+  padding-bottom: 168px;
+  padding-top: 28px;
 }
 
 /* site navigation */
@@ -154,7 +156,7 @@ img {
   opacity: 1;
 }
 
-.page-header__button {
+.header-button {
   display: block;
   margin: 0 auto;
   font-family: "Monsterrat";
@@ -173,21 +175,24 @@ img {
 
 /* SERVICE */
 .service {
-  margin-bottom: 96px;
+  padding-bottom: 90px;
+  padding-top: 44px;
 }
-
-.service__card {
+.section-title__monsterrat--service {
+  padding-bottom: 64px;
+}
+.card {
   display: flex;
   flex: 0 0 400px;
-  margin-bottom: 72px;
   padding: 0 0px;
+  padding-bottom: 72px;
   text-align: left;
 }
-.service__card:nth-last-child(-n + 3) {
-  margin-bottom: 0;
+.card:nth-last-child(-n + 3) {
+  padding-bottom: 0;
 }
 
-.card__card-title {
+.card__title {
   font-family: "Montserrat";
   font-size: 14px;
   font-weight: 400;
@@ -231,11 +236,17 @@ img {
 .card--image::before {
   background-image: url("../image/icon/service/icon-image.svg");
 }
+/* TEAM SECTION  */
 .team {
   padding-bottom: 80px;
 }
+.section-title__monsterrat--team {
+  padding-bottom: 44px;
+}
 .team__about {
   text-align: center;
+  width: 1000px;
+  margin: 0 auto;
   margin-bottom: 96px;
   margin-top: 0;
   font-family: "Roboto";
@@ -267,7 +278,7 @@ img {
 }
 .team__item {
   position: relative;
-  min-width: 370px;
+  width: 370px;
 }
 
 .team__gradient {
@@ -282,7 +293,7 @@ img {
   transform: translate(-10px, -10px);
   box-shadow: 10px 10px rgba(149, 225, 211, 1);
 }
-
+/* SOCIAL-OVERLAY */
 .overlay {
   display: flex;
   justify-content: center;
