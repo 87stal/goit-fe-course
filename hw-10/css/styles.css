@@ -82,7 +82,6 @@ body {
 
 /* PAGE-HEADER */
 .page-header {
-  min-height: 1000px;
   background: -webkit-gradient(
       linear,
       left bottom, left top,
@@ -105,6 +104,7 @@ body {
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
+  padding-bottom: 230px;
 }
 
 .site-logo {
