@@ -20,5 +20,9 @@
         rgba(243, 129, 129, 0.9) 100%
       ),
       url("../image/banner@2x.png");
+
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
   }
 }
