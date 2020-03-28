@@ -16,17 +16,19 @@ img {
   content: "";
   clear: both;
 }
+
 .container {
+  width: 1170px;
   margin: 0 auto;
   display: block;
-  background-color: #e9f0fd;
+  
 }
+
 .site-navigation {
   margin: 0 auto;
   display: block;
   padding-top: 40px;
   padding-bottom: 40px;
-  width: 1110px;
 }
 
 .site-logo {
@@ -180,6 +182,7 @@ h2::after {
   margin-top: 30px;
 }
 .produkt {
+  background-color: #e9f0fd;
   position: relative;
   display: block;
   padding-top: 100px;
@@ -187,7 +190,6 @@ h2::after {
 .produkt-list {
   position: relative;
   box-sizing: border-box;
-  width: 1110px;
   list-style: none;
   padding: 0;
   margin: 0 auto;
@@ -196,10 +198,8 @@ h2::after {
 }
 
 .produkt-list-item {
-  position: relative;
   float: left;
   width: 256px;
-  height: 326px;
   margin-right: 28px;
 }
 .produkt-list-item:nth-child(4) {
@@ -214,10 +214,8 @@ h2::after {
   font-size: 18px;
   line-height: 38px;
   font-weight: 900;
-  position: absolute;
+  position: relative;
   box-sizing: border-box;
-  bottom: 0px;
-  left: 0px;
   background-color: #000000;
   float: left;
   z-index: 5;
@@ -265,38 +263,33 @@ h2::after {
   background-color: #1abc9c;
 }
 /* Icon/overlay */
+.product-overlay{
+  position: relative;
+}
 .overlay {
   position: absolute;
-  top: 15px;
-  left: 10px;
-  right: 10px;
-  bottom: 52px;
-  width: 100%;
-  height: 262px;
-  width: 234px;
-  background-color: rgba(0, 0, 0);
+  width: 95%;
+  height: 95%;
+  top: 3%;
+  right: 3%;
+  background-color: rgba(0, 0, 0, 0.5);
   opacity: 0;
 }
-.icon {
-  position: absolute;
-  top: 15px;
-  left: 10px;
-  right: 10px;
-  bottom: 52px;
+/* .icon {
   width: 100%;
   height: 262px;
   width: 234px;
-}
+} */
 
 .produkt-list-item:hover .overlay {
-  opacity: 0.55;
+  opacity: 1;
 }
 .icon-list {
   box-sizing: border-box;
   position: absolute;
   top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+  left: 50%; 
+  transform: translate(-50%, -50%); 
   width: 166px;
   height: 112px;
   font-size: 14px;
@@ -307,24 +300,19 @@ h2::after {
   color: rgb(255, 255, 255);
   text-transform: uppercase;
   list-style: none;
-  margin: 0 auto;
   padding-left: 0px;
   margin-left: auto;
-  vertical-align: middle;
-  z-index: 1;
-  opacity: 0;
-}
-.produkt-list-item:hover .icon-list {
-  opacity: 1;
 }
 
-.overlay-icon {
+ .overlay-icon {
   float: left;
   width: 48px;
   height: 48px;
   margin-right: 8px;
   margin-bottom: 8px;
-}
+  border: 1px solid #ffffff;
+
+} 
 .overlay-icon:nth-child(3) {
   margin-right: 0px;
 }
@@ -333,7 +321,7 @@ h2::after {
   margin-right: 0px;
   border: 1px solid rgb(255, 255, 255);
 }
-.overlay-icon:not(:last-child) a {
+.button-icon {
   float: left;
   width: 48px;
   height: 48px;
@@ -341,23 +329,24 @@ h2::after {
   margin-bottom: 8px;
   background-repeat: no-repeat;
   background-position: center;
-  border: 1px solid rgb(255, 255, 255);
+  border: none;
+  background-color: rgba(255, 255, 255, 0);
+  cursor: pointer;
 }
-.heart a {
+.heart  {
   background-image: url(../image/icon-1.png);
 }
-.arrow a {
+.arrow {
   background-image: url(../image/icon-2.png);
 }
-.clock a {
+.clock {
   background-image: url(../image/icon-3.png);
   margin-right: 0px;
 }
-.card {
-  position: relative;
+.card-field {
   background-color: rgb(50, 50, 50);
 }
-.icon-card {
+.card {
   float: left;
   width: 48px;
   height: 48px;
@@ -378,11 +367,12 @@ h2::after {
   color: rgb(255, 255, 255);
   text-transform: uppercase;
   line-height: 48px;
+  border: none;
 }
-.overlay-icon:not(:last-child) a:hover {
+.overlay-icon:hover {
   background-color: rgb(26, 188, 156);
   opacity: 1;
-  border: rgb(26, 188, 156);
+  border: 1px solid rgb(26, 188, 156);
 }
 
 /* Footer */
