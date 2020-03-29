@@ -47,34 +47,34 @@
     width: 60px;
     height: 60px;
     border-style: none;
-    border-right: 1px solid rgba(243, 129, 129, 0.5);
-    background-color: rgb(252, 227, 138);
+    border-right: 1px solid rgba($secondary-accent-color, 0.5);
+    background-color: $first-accent-color;
     cursor: pointer;
     transition: background-color 200ms linear;
 
     &:hover {
-      background-color: #f38181;
+      background-color: $secondary-accent-color;
     }
 
     &--facebook:hover .overlay__icon--facebook {
-      fill: #fff;
+      fill: $primary-white-color;
     }
 
     &--twitter:hover .overlay__icon--twitter {
-      fill: #fff;
+      fill: $primary-white-color;
     }
 
     &--pinterest:hover .overlay__icon--pinterest {
-      fill: #fff;
+      fill: $primary-white-color;
     }
 
     &--instagram:hover .overlay__icon--instagram {
-      fill: #fff;
+      fill: $primary-white-color;
       border-right-style: none;
     }
   }
 
   &__icon {
-    fill: #f38181;
+    fill: $secondary-accent-color;
   }
 }

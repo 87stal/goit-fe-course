@@ -1,16 +1,16 @@
 .header-button {
   display: block;
   margin: 0 auto;
-  font-family: 'Monsterrat';
+  font-family: $primary-font-family;
   font-weight: 700;
   text-transform: uppercase;
   cursor: pointer;
   font-size: 14px;
-  color: #fff;
+  color: $primary-white-color;
   width: 162px;
   height: 44px;
-  border: 2px solid #fff;
+  border: 2px solid $primary-white-color;
   outline: none;
   text-decoration: none;
-  background-color: rgba(149, 225, 211, 0);
+  background-color: rgba($primary-white-color, 0);
 }
