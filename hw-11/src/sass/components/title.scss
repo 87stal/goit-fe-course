@@ -1,0 +1,49 @@
+.title {
+  max-width: 840px;
+  text-align: center;
+  font-family: 'Kaushan Script';
+  font-weight: normal;
+  text-transform: none;
+  line-height: 1;
+  margin: 0 auto;
+
+  &__monsterrat {
+    display: block;
+    font-family: 'Montserrat';
+    line-height: 1.2;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-style: normal;
+  }
+}
+
+.header-title {
+  font-size: 72px;
+  color: #fff;
+
+  &__monsterrat {
+    font-size: 150px;
+    padding-top: 35px;
+    padding-bottom: 120px;
+  }
+}
+
+.section-title {
+  font-size: 24px;
+  color: #333333;
+
+  &__monsterrat {
+    font-size: 30px;
+    padding-top: 21px;
+  }
+
+  &::after {
+    display: block;
+    width: 66px;
+    height: 3px;
+    background-color: rgb(243, 129, 129);
+    content: '';
+    margin: auto;
+    margin-top: 40px;
+  }
+}
