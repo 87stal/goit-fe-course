@@ -1,0 +1,71 @@
+.service {
+  padding-bottom: 90px;
+  padding-top: 44px;
+}
+
+.section-title__monsterrat--service {
+  padding-bottom: 64px;
+}
+
+.card {
+  display: flex;
+  flex: 0 0 400px;
+  padding: 0 0px;
+  padding-bottom: 72px;
+  text-align: left;
+
+  &:nth-last-child(-n + 3) {
+    padding-bottom: 0;
+  }
+  
+  &__title {
+    font-family: 'Montserrat';
+    font-size: 14px;
+    font-weight: 400;
+    text-transform: uppercase;
+    color: rgb(51, 51, 51);
+    line-height: 1.2;
+    margin: 0;
+  }
+
+  &__text {
+    font-family: 'Roboto';
+    font-size: 15px;
+    line-height: 24px;
+    color: #999999;
+  }
+
+  &::before {
+    content: '';
+    display: block;
+    flex-basis: 60px;
+    margin-bottom: 34px;
+    margin-right: 28px;
+    background-repeat: no-repeat;
+    background-position: top;
+  }
+
+  &--clock::before {
+    background-image: url('../images/icon/service/icon-clock.svg');
+  }
+
+  &--graph::before {
+    background-image: url('../images/icon/service/icon-graph.svg');
+  }
+
+  &--computer::before {
+    background-image: url('../images/icon/service/icon-comuter.svg');
+  }
+
+  &--book::before {
+    background-image: url('../images/icon/service/icon-book.svg');
+  }
+
+  &--home::before {
+    background-image: url('../images/icon/service/icon-home.svg');
+  }
+
+  &--image::before {
+    background-image: url('../images/icon/service/icon-image.svg');
+  }
+}
