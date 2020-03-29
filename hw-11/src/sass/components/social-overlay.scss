@@ -13,6 +13,10 @@
   );
   opacity: 0;
   transition: opacity 200ms linear;
+  
+  &__link{
+    @extend %link;
+  }
 
   &:hover {
     background: linear-gradient(
@@ -24,6 +28,7 @@
   }
   
   &__list-socials {
+    @extend %list;
     display: flex;
     justify-content: center;
     align-self: center;

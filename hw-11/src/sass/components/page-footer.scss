@@ -10,6 +10,7 @@
   line-height: 1.3;
 
   &__link {
+    @extend %link;
     font-family: 'Montserrat';
     font-size: 14px;
     color: #f38181;

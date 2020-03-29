@@ -1,4 +1,8 @@
-.list {
+%link {
+  text-decoration: none;
+}
+
+%list {
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;

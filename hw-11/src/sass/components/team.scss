@@ -1,10 +1,16 @@
 .team {
   padding-bottom: 80px;
+
+  &__list {
+    @extend %list;
+  }
+
   &__image {
     display: block;
     max-width: 100%;
     height: auto;
   }
+
   &__about {
     text-align: center;
     width: 1000px;
@@ -16,6 +22,7 @@
     line-height: 24px;
     color: #999999;
   }
+
   &__name {
     font-family: 'Montserrat';
     font-size: 14px;
@@ -26,6 +33,7 @@
     text-align: center;
     text-transform: uppercase;
   }
+
   &__occupation {
     font-family: 'Roboto';
     font-weight: 300;
@@ -36,10 +44,12 @@
     text-align: center;
     margin: 0;
   }
+
   &__item {
     position: relative;
     width: 370px;
   }
+
   &__gradient {
     position: relative;
     margin-bottom: 30px;
@@ -48,14 +58,10 @@
     transition: transform 200ms linear, box-shadow 200ms linear;
 
     &:hover {
-      
       transform: translate(-10px, -10px);
       box-shadow: 10px 10px rgba(149, 225, 211, 1);
     }
   }
-}
-.section-title__monsterrat--team {
-  padding-bottom: 44px;
 }
 
 

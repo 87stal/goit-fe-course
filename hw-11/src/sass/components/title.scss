@@ -35,15 +35,23 @@
   &__monsterrat {
     font-size: 30px;
     padding-top: 21px;
-  }
 
-  &::after {
-    display: block;
-    width: 66px;
-    height: 3px;
-    background-color: rgb(243, 129, 129);
-    content: '';
-    margin: auto;
-    margin-top: 40px;
+    &--service {
+      padding-bottom: 64px;
+    }
+
+    &--team {
+      padding-bottom: 44px;
+    }
+    
+    &::after {
+      display: block;
+      width: 66px;
+      height: 3px;
+      background-color: rgb(243, 129, 129);
+      content: '';
+      margin: auto;
+      margin-top: 40px;
+    }
   }
 }

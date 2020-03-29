@@ -1,4 +1,5 @@
 .site-logo {
+  @extend %link;
   font-family: 'Montserrat';
   font-size: 30px;
   color: #95e1d3;
